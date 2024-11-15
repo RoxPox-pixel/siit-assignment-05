@@ -1,0 +1,76 @@
+
+body {
+    margin: 30;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.todolist {
+    background: rgb(236, 223, 234);
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h1 {
+    text-align: center;
+    color: #ed46be;
+}
+
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #f61212;
+   
+}
+
+button {
+    width: 50%;
+    padding: 10px;
+    background-color: #ed46be;
+    color: white;
+    border: none;
+    font-size: 16px;
+    align-items: center;
+    display: block; 
+    margin: 10px auto;
+}
+
+button:hover {
+    background-color: #5a29ec;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+li.done {
+    text-decoration:line-through;
+    color:#ed46be;
+}
+
+button.delete-btn {
+    background-color: #d9534f;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
